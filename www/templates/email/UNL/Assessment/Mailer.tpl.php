@@ -5,8 +5,7 @@ $ok_class = 'margin-bottom: 20px; padding: 20px; background:#b7dd9b; border-styl
 ?>
 
 <span class="emailbodytext" style="margin-bottom: 30px; font-size:22px; line-height:34px; font-family:Helvetica,Arial,sans-serif; display:block;">
-    Hello! The UNL Web Developer Network has launched a new service, UNL Site Checker, to help you maintain your UNL 
-    website. This email is being sent to you because you are listed in the WDN Registry as a 'member' of this 
+    Hello! This email is being sent to you from the UNL Site Checker tool. It's a report on your website '<a href="<?php echo $context->assessment->baseUri; ?>"><?php echo ($stats['site_title'] == 'unknown')?$context->assessment->baseUri:$stats['site_title']; ?></a>' and is provided to help you maintain your site. This email is being sent to you because you are listed in the <a href='http://www1.unl.edu/wdn/'>WDN Registry</a> as a 'member' of this 
     website.
 
     The Site Checker tool looks at a number of aspects of your site, including validity of the site's HTML markup, broken 
